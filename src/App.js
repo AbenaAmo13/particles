@@ -1,22 +1,17 @@
 import logo from './logo.svg';
+import particles from './particles.svg'
 import './App.css';
+import Button from '@mui/material/Button';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <p id="titleparagraph">
+              Particle People Task
+          </p>
+          <img className="App-logo" src={particles}></img>
+          <Button variant="contained"> Start Task!</Button>
       </header>
     </div>
   );
